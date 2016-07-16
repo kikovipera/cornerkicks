@@ -1,0 +1,53 @@
+/*
+ *	Site: MOAI MUSIC TOOLS
+ *	Author: CHRISTOPHER MELVILLE
+ *	Date: JUNE 2016
+ *	Comments: BPM calculation stylesheet
+ */
+ /* * * * * * * * * * * * * * *
+* OVERLAID BOOTSTRAP STYLES
+* * * * * * * * * * * * * * */
+/*SASS STYLES*/
+/*08 - clean and highlighted */
+/* * * * * * * * * * * * * * *
+* GENERAL GLOBAL STYLES
+* * * * * * * * * * * * * * */
+body {
+  margin: 0px;
+  padding: 0px; }
+
+.header {
+  background-color: #CAEBF2;
+  color: #FF3B3F;
+  line-height: 75px;
+  height: 150px;
+  width: 100%; }
+  .header h1 {
+    width: 100%;
+    text-align: center; }
+  .header h4 {
+    width: 100%;
+    text-align: center; }
+
+.selection {
+  background-color: #A9A9A9;
+  height: 150px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around; }
+  @media (max-width: 768px) {
+    .selection {
+      display: block; } }
+
+.results {
+  background-color: #FF3B3F;
+  height: 300px;
+  width: 100%; }
+  .results canvas {
+    border: solid 1px black; }
+
+footer {
+  display: flex;
+  justify-content: center; }
+
+/*# sourceMappingURL=style.css.map */
